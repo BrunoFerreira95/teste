@@ -51,7 +51,7 @@ export default function Home() {
                 </p><br/>
                 <p  className=' text-black text-justify '>
 
-                  Bruno's music is driven by his experience with mediumship, bringing lyrics that explore deep and emotional themes. His connection with the transcendental is reflected in compositions that touch the soul of listeners.
+                  Bruno music is driven by his experience with mediumship, bringing lyrics that explore deep and emotional themes. His connection with the transcendental is reflected in compositions that touch the soul of listeners.
                 </p><br/>
                 <p  className=' text-black text-justify '>
 
@@ -71,7 +71,7 @@ export default function Home() {
                 </p><br/>
                 <p  className=' text-black text-justify '>
 
-                  For more information and press inquiries, please contact Bruno Ferreira Pedraça's management team at xxx-xxx.
+                  For more information and press inquiries, please contact Bruno Ferreira Pedraça management team at xxx-xxx.
                 </p><br/>
                 <p  className=' text-black text-justify '>
 
