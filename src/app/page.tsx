@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { Bruno, Instagram} from '../assets/export'
 import Link from "next/link";
-
+//
 export default function Home() {
   return (
     <>
