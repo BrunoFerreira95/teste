@@ -1,9 +1,11 @@
 import Image from "next/image";
 
 import { Bruno, Instagram } from '../assets/export'
+import { block } from 'million/react';
 import Link from "next/link";
 
-export default function Home() {
+const Speed = block(function Home() {
+
   return (
     <>
       <>
@@ -86,4 +88,6 @@ export default function Home() {
       </>
     </>
   )
-}
+})
+
+export default Speed
