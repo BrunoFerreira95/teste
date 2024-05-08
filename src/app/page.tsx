@@ -1,3 +1,5 @@
+'use server'
+
 import Image from "next/image";
 
 import { Bruno, Instagram } from '../assets/export'
