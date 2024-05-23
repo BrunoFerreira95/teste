@@ -35,7 +35,7 @@ export default function Component() {
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Bruno Ferreira Pedraça</h1>
                   <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                    Exploring life, love, and self-awareness to grow and prosper. Balancing action and relaxation has brought clarity to my journey. My music blends RBM and pop. At the start of my journey, I connect my avatar to music and practice to perfect the process. Let's turn life's drama into strength and growth.
+                    Exploring life, love, and self-awareness to grow and prosper. Balancing action and relaxation has brought clarity to my journey. My music blends RBM and pop. At the start of my journey, I connect my avatar to music and practice to perfect the process. Let&apos;s turn life&apos;s drama into strength and growth.
                   </p>
                 </div>
               </div>
