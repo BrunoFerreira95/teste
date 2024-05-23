@@ -1,14 +1,37 @@
+"server"
+
 /**
  * v0 by Vercel.
  * @see https://v0.dev/t/kJQzEZbGINq
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
-import Link from "next/link"
-import { CardContent, CardFooter, Card } from "@/components/ui/card"
-import Image from "next/image"
-import Bruno from '../assets/bruno.png'
-import MaybeITooSeriues from '../assets/maybe-i-too-seriues.jpg'
-import { Badge } from "@/components/ui/badge"
+import Link from "next/link";
+import { CardContent, CardFooter, Card } from "@/components/ui/card";
+import Image from "next/image";
+import Bruno from "../assets/bruno.png";
+import MaybeITooSeriues from "../assets/maybe-i-too-seriues.jpg";
+import { Badge } from "@/components/ui/badge";
+
+function MusicIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M9 18V5l12-2v13" />
+      <circle cx="6" cy="18" r="3" />
+      <circle cx="18" cy="16" r="3" />
+    </svg>
+  );
+}
 
 export default function Component() {
   return (
@@ -40,7 +63,6 @@ export default function Component() {
                 </div>
               </div>
               <Image
-              
                 alt="Bruno Ferreira Pedraça"
                 className="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center sm:w-full"
                 height="550"
@@ -79,15 +101,11 @@ export default function Component() {
                       <div className="font-medium">Maybe I Too Seriues</div>
                       <div className="text-sm text-gray-500 dark:text-gray-400">2024</div>
                     </div>
-                    <Link href={"https://ditto.fm/maybe-i-too-seriues"} >
-                      <Badge>
-                          SmartLink
-                      </Badge>
-                    </Link> 
+                    <Link href={"https://ditto.fm/maybe-i-too-seriues"}>
+                      <Badge>SmartLink</Badge>
+                    </Link>
                   </CardFooter>
                 </Card>
-                
-                
               </div>
             </div>
           </div>
@@ -105,26 +123,5 @@ export default function Component() {
         </nav>
       </footer>
     </div>
-  )
-}
-
-function MusicIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M9 18V5l12-2v13" />
-      <circle cx="6" cy="18" r="3" />
-      <circle cx="18" cy="16" r="3" />
-    </svg>
-  )
+  );
 }
