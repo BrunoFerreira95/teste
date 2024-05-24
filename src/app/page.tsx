@@ -5,7 +5,7 @@ import Image from "next/image";
 import Bruno from "../assets/bruno.png";
 import MaybeITooSeriues from "../assets/maybe-i-too-seriues.jpg";
 import { Badge } from "@/components/ui/badge";
-
+//
 function MusicIcon(props) {
   return (
     <svg
