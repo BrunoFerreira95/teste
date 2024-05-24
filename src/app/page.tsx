@@ -1,4 +1,4 @@
-
+"use server"
 import Link from "next/link";
 import { CardContent, CardFooter, Card } from "@/components/ui/card";
 import Image from "next/image";
